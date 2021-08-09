@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" />
+    <!--load all styles -->
+
+    <title>Pembayaran</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand navbar-dark bg-hitam">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white me-3" aria-current="page" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white me-3" href="contact.html">HELP DESK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white" href="landingPage.html">LOGOUT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- content -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-2 align-self-start"></div>
+        <div class="col-8 align-self-center">
+          <div class="card sudut" style="width: 100%">
+            <div class="card-body ms-4 me-4">
+              <h5 class="card-title text-center mb-5">INFORMASI PEMBAYARAN</h5>
+              <fieldset disabled>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label">SPP (Sumbangan Pembinaan Pendidikan)</label>
+                  <input type="text" class="form-control bg-light" id="formGroupExampleInput2" value="Rp. 9.500.000 (Sembilan Juta Lima Ratus Ribu Rupiah)" />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput" class="form-label">Uang Gedung</label>
+                  <input type="text" class="form-control bg-light" id="formGroupExampleInput" value="Rp. 5.000.000 (Lima Juta Rupiah)" />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput" class="form-label">Total Tagihan</label>
+                  <input type="text" class="form-control" style="background-color: #fea757" id="formGroupExampleInput" value="Rp. 14.500.000 (Empat Belas Juta Lima Ratus Ribu Rupiah)" />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput" class="form-label">Status</label>
+                  <input type="text" class="form-control" style="background-color: #b0fb8c" id="formGroupExampleInput" value="Sudah DIbayar" />
+                </div>
+                <div class="mb-3">
+                  <div class="form-control bg-light">
+                    <ul type="none">
+                      <li>TATA CARA PEMBAYARAN:</li>
+                      <li>
+                        Opsi 1:
+                        <ol>
+                          <li>Datang Langsung Ke Sekolah</li>
+                        </ol>
+                      </li>
+                      <br />
+                      <li>
+                        Opsi 2:
+                        <ol>
+                          <li>
+                            Transfer Melalui ATM/M-Banking ke Rekening:
+                            <ul>
+                              <li>BRI = XXXXXXX</li>
+                              <li>BNI = XXXXXXX</li>
+                              <li>BCA = XXXXXXX</li>
+                            </ul>
+                          </li>
+                        </ol>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </fieldset>
+              <h6>Tombol penyelesaian pembayaran akan otomatis terbuka apabila pembayaran sudah selesai dilakukan.</h6>
+              <div class="row justify-content-center">
+                <div class="col text-center">
+                  <p>
+                    <a class="btn tombol_orange fw-bold text-light mt-3 me-3" href="home_diterima.html" role="button">KEMBALI</a>
+                    <a class="btn tombol_orange fw-bold text-light mt-3 ms-3" href="pengumuman masuk.html" role="button">SELESAI</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 align-self-end"></div>
+      </div>
+    </div>
+    <!-- end content -->
+
+    <!-- footer -->
+    <footer class="mt-5 fixed-bottom"></footer>
+    <!-- end footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
